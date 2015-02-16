@@ -1,6 +1,6 @@
 # Site settings
 title: THE END IS NIGH
-email: zaprice@cryptopocalyp.se
+# email: zaprice@cryptopocalyp.se
 gmail: zprice11@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Zach Price personal site.
