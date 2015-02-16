@@ -1,4 +1,4 @@
-# cryptocalyp.se
+# cryptopocalyp.se
 
 Personal site, made with Jekyll.  
 Copyright (C) 2015  Zachary Price
