@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I'm Zach Price. Ruby programmer, cryptography enthusiast, and amateur mathematician.  
-Mathematical interests include combinatorics, group theory, algebraic coding theory, and logic.  
+I'm Zach Price. Computer programmer, cryptography enthusiast, and amateur mathematician.  
+Mathematical interests include combinatorics, group theory, and mathematical logic.  
 Non-mathematical interests include copyright law, video games, jazz, death metal, and science fiction.
 
-You can find my resume [here]({{site.url}}/assets/Price Resume-2015.pdf).  
-This is my [public key]({{site.url}}/assets/zprice11_public_key.txt).
+You can find my resume [here]({{ site.resume | prepend: site.baseurl }}).  
+This is my [public key]({{ site.public_key | prepend: site.baseurl }}).
 
 Publications:
 
-* _The Distribution of Eigenvalues of Doubly Cyclic $$Z^+$$-Matrices_ [(preprint)]({{site.url}}/assets/JPS1.pdf)  
+* _The Distribution of Eigenvalues of Doubly Cyclic $$Z^+$$-Matrices_ [(preprint)]({{ site.JPS | prepend: site.baseurl}})  
