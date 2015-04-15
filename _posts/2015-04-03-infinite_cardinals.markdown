@@ -37,11 +37,11 @@ And there are other collections of the same size, too; consider the collection o
 Any regular polygon has a positive integer number of sides, so we can pair each positive integer $$n$$ with the regular $$n$$-sided polygon.
 Similarly, any perfect square is some $$2^k$$, where $$k$$ is a positive integer; we can pair them up in the same way.
 
-Since there are many collections of this same cardinality, it makes sense to it a name.
+Since there are many collections of this same cardinality, it makes sense to give it a name.
 We call it _aleph null_, commonly notated as $$\aleph_0$$.
 A number we can assign to the size of a set is known as a _cardinal_.
 Positive integers are cardinals, as we well know. But $$\aleph_0$$ is also a cardinal; it just happens to be an _infinite_ cardinal.
-We've discovered that there is at least one infinite "number" with the same *multiplicity*-measuring properties as the friendly and finite positive integers.
+We've discovered that there is at least one infinite "number" with the same quantity-measuring properties as the friendly and finite positive integers.
 In fact, there are infinitely many such infinite cardinals, and $$\aleph_0$$ is the smallest; moreover, the rest of the infinite cardinals are qualitatively different from aleph null. We will demonstrate their existence in
 <a class="page-link" href="{{ site.baseurl }}">Rigour Warning: Infinite Cardinals</a>. (Coming Soon)
 
@@ -49,9 +49,9 @@ So far, we have generalized one property of the familiar natural numbers, that t
 an infinite cardinal.
 Our original notion of quantity was tied to the positive integers, but upon further inspection it seems to be a more general concept.
 
-When we think of positive integers, we tend to think of quantity and order as being the same property:  
+When we think of positive integers, we tend to think of quantity and order as being the same property:
 3 is _bigger_ than 2, which also means 3 _comes after_ 2 in an ordering.
 In the next post, we will look at generalizing this second property, **order**, to get an even-less-familiar object: an infinite ordinal.
-Moreover, we will see how quantity and order become distinct, different notions when generalized to infinite objects.
+Moreover, we will see how quantity and order become different concepts when generalized to infinite objects.
 
 ### <a class="page-link" href="{{ site.baseurl }}">Rigour Warning: Infinite Cardinals</a> (Coming Soon)
