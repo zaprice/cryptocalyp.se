@@ -13,7 +13,7 @@ Given an object we are familiar with, we choose a property of that object and as
 * "How are these new objects related to the familiar one?"
 
 In this example, we will talk about the positive integers, and how we can generalize their properties to address different _kinds_ of infinities.  
-The positive integers, often called the _natural numbers_ and denoted $$\mathbb{N}$$ have two properties that currently interest us: **quantity** and **order**.
+The positive integers, often called the _natural numbers_ and denoted $$\N$$ have two properties that currently interest us: **quantity** and **order**.
 
 If you are given a collection of things, you can say _how many_ you have by assigning a natural number to it.
 A pair of jeans has four pockets; four describes _how many_ pockets are in the collection.
@@ -27,8 +27,8 @@ What happens when you have a large collection? We can assess the cardinality of 
 If the universe is of finite size, it can only contain a finite number of stars.
 Thus, there is some positive integer large enough to describe it.  
 Similarly, we can ask: what is the cardinality of the set of positive integers?  
-If we pick any positive integer $$k$$ and say the cardinality of $$\mathbb{N}$$ is $$k$$, we would be wrong;
-$$\mathbb{N}$$ contains the number $$k+1$$, so there is no way it could have only $$k$$ elements.
+If we pick any positive integer $$k$$ and say the cardinality of $$\N$$ is $$k$$, we would be wrong;
+$$\N$$ contains the number $$k+1$$, so there is no way it could have only $$k$$ elements.
 But, this goes for _any_ positive integer $$k$$.
 So, the set of positive integers has a cardinality that cannot be named by any positive integer.
 
@@ -42,8 +42,7 @@ We call it _aleph null_, commonly notated as $$\aleph_0$$.
 A number we can assign to the size of a set is known as a _cardinal_.
 Positive integers are cardinals, as we well know. But $$\aleph_0$$ is also a cardinal; it just happens to be an _infinite_ cardinal.
 We've discovered that there is at least one infinite "number" with the same quantity-measuring properties as the friendly and finite positive integers.
-In fact, there are infinitely many such infinite cardinals, and $$\aleph_0$$ is the smallest; moreover, the rest of the infinite cardinals are qualitatively different from aleph null. We will demonstrate their existence in
-<a class="page-link" href="{{ site.baseurl }}">Rigour Warning: Infinite Cardinals</a>. (Coming Soon)
+In fact, there are infinitely many such infinite cardinals, and $$\aleph_0$$ is the smallest; moreover, the rest of the infinite cardinals are qualitatively different from aleph null.
 
 So far, we have generalized one property of the familiar natural numbers, that they can be used to measure the size of collections, to a less-familiar object:
 an infinite cardinal.
@@ -53,5 +52,3 @@ When we think of positive integers, we tend to think of quantity and order as be
 3 is _bigger_ than 2, which also means 3 _comes after_ 2 in an ordering.
 In the next post, we will look at generalizing this second property, **order**, to get an even-less-familiar object: an infinite ordinal.
 Moreover, we will see how quantity and order become different concepts when generalized to infinite objects.
-
-### <a class="page-link" href="{{ site.baseurl }}">Rigour Warning: Infinite Cardinals</a> (Coming Soon)
