@@ -9,7 +9,7 @@ copyright: >
   <a href=https://www.gnu.org/licenses/gpl-2.0.html>
   GNU GPL v2</a> ALL WRONGS RESERVED</br>
   Source code can be found
-  <a href=https://github.com/zaprice/cryptocalyp.se>
+  <a href=https://github.com/zaprice/cryptopocalyp.se>
   here</a>.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cryptopocalyp.se" # the base hostname & protocol for your site

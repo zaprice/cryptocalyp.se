@@ -250,6 +250,12 @@ pre {
     float:right;
 }
 
+div.proof:after {
+    content: "\25FC";
+    float: right;
+    margin: -3.55em 0 0 0;
+}
+
 .definition {
     // display: block;
     margin: 12px 0;
@@ -258,6 +264,30 @@ pre {
 
 .definition:before {
     content: "Definition. ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.conjecture {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+
+.conjecture:before {
+    content: "Conjecture. ";
+    font-weight: bold;
+    font-style: normal;
+}
+
+.proposition {
+    display: block;
+    margin: 12px 0;
+    font-style: normal;
+}
+
+.proposition:before {
+    content: "Proposition. ";
     font-weight: bold;
     font-style: normal;
 }
