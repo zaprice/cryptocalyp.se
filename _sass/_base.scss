@@ -238,6 +238,7 @@ pre {
     display: block;
     margin: 12px 0;
     font-style: normal;
+    overflow: hidden;
 }
 
 .proof:before {
@@ -253,7 +254,6 @@ pre {
 div.proof:after {
     content: "\25FC";
     float: right;
-    margin: -3.55em 0 0 0;
 }
 
 .definition {
