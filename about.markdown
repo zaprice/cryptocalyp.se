@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 I'm Zach Price. Computer programmer, cryptography enthusiast, and amateur mathematician.  
-Mathematical interests include combinatorics, group theory, and mathematical logic.  
-Non-mathematical interests include copyright law, video games, jazz, death metal, and science fiction.
+Mathematical interests include combinatorics, group theory, and logic.  
+Non-mathematical interests include copyright law, games, jazz, death metal, and science fiction.
 
 You can find my resume [here]({{ site.resume | prepend: site.baseurl }}).  
 This is my [public key]({{ site.public_key | prepend: site.baseurl }}).
