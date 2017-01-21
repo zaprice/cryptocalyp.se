@@ -60,7 +60,8 @@ $$c\int_{1}^{\infty}\frac{1}{x\log x}dx=c\big(\log\log x\ \Big|_1^\infty\big)
 </div>
 
 We have seen how the divergent sum of prime reciprocals is a direct result of the asymptotic density of the sequence of primes.
-We have also noted that any arbitrary set $$A$$ can be treated by evaluating $$\int_{1}^{\infty}\frac{\delta_A(x)}{x^2}dx$$ in the same fashion.
+Also note that any arbitrary set $$A$$ can be treated by evaluating $$\int_{1}^{\infty}\frac{\delta_A(x)}{x^2}dx$$ in the same fashion.
+Thus, any set with $$\delta_A(x)\sim\frac{x}{\log x}$$ will have divergent reciprocal sum.
 
 The next question arises naturally:
 can we find a function $$f$$ that divides sets, based on their asymptotic formulae, into those with and without divergent reciprocal sums?
@@ -70,9 +71,15 @@ I claim that any set $$A$$ with a counting function that is of the form $$\frac{
 This is interesting as our set of primes is very close to the boundary.
 A slightly sparser set, e.g. one with density $$\mathcal{O}\big(\frac{x}{\log x\log\log x}\big)$$, will still have divergent reciprocal sum, but you cannot go much sparser until the sum begins to converge.
 
-<span class='theorem'>If $$A$$ is a sequence such that $$\delta_A(x)\sim \frac{x}{\log^{1+\epsilon} x}$$, or $$\delta_A(x)\sim f(x) <\frac{x}{\log^{1+\epsilon} x}$$, then $$\sum_{a\in A}\frac{1}{a}$$ converges.</span>
+<span class='theorem'>$$\sum_{a\in A}\frac{1}{a}$$ converges <u>if and only if</u> $$A$$ is a sequence such that $$\delta_A(x)\sim \frac{x}{\log^{1+\epsilon} x}$$ or $$\delta_A(x)\sim f(x) <\frac{x}{\log^{1+\epsilon} x}$$ for some $$\epsilon>0$$.</span>
 
 <div class='proof'>
+We start with the former.
+Assume to the contrary that \(\delta_A(x)\sim f(x) >\frac{x}{\log^{1+\epsilon} x}\) for any \(\epsilon>0\).
+It must be the case that \(f(x) \geq\frac{x}{\log x}\), so it suffices to consider \(\delta_A(x)\sim\frac{x}{\log x}\).
+However, we showed in the previous example that any set distributed like \(\frac{x}{\log x}\) must have divergent reciprocal sum, contradicting our assumption.
+<br><br>
+Now the latter.
 It is sufficient to prove the case where \(\delta_A(x)\sim \frac{x}{\log^{1+\epsilon} x}\).
 Similar to before, we start with the integral:
 $$\sum_{a\in A}\frac{1}{a}=\int_{1}^{\infty}\frac{\delta_A(x)}{x^2}dx$$
@@ -100,7 +107,7 @@ We can relate this back to the Erdős conjecture via the contrapositive:
 
 $$\sum_{a\in A}\frac{1}{a} = c < \infty$$
 
- Therefore, by the conjecture we would know that a set without arbitrary arithmetic progressions must have a counting function with asymptotic formula $$\frac{x}{\log^{1+\epsilon} x}$$ or smaller.
+ By our proof, the conjecture implies that a set without arbitrary arithmetic progressions must have a counting function with asymptotic formula $$\frac{x}{\log^{1+\epsilon} x}$$ or smaller.
 
 There is an outstanding question of whether or not this is an appropriate bound.
 The upper bound on the density of sets without arithmetic progressions could potentially be much lower than $$\frac{x}{\log^{1+\epsilon} x}$$;
