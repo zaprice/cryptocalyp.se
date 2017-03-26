@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      Macros: {
-        N: "{\\mathbb{N}}",
-        Z: "{\\mathbb{Z}}",
-        R: "{\\mathbb{R}}",
-        Q: "{\\mathbb{Q}}"
-      }
-    }
-  });
-  </script>
-  <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+  <!-- Using a modified version of KaTeX auto-render to support macros -->
+  <!-- Can switch back once they merge the macro feature -->
+  <script src="/assets/auto-render.min.js"></script>
   <link rel="stylesheet" type="text/css"
   href="https://fonts.googleapis.com/css?family=Lora:400,700">
   <link rel="stylesheet" type="text/css"
@@ -37,6 +30,22 @@
 
     {% include footer.html %}
 
+    <script>
+      const macros = {
+        "\\N": "\\mathbb{N}",
+        "\\Z": "\\mathbb{Z}",
+        "\\R": "\\mathbb{R}",
+        "\\Q": "\\mathbb{Q}"
+        };
+      const delim = [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false},
+        {left: "\\[", right: "\\]", display: true},
+        {left: "\\(", right: "\\)", display: false},
+        ];
+      renderMathInElement(document.body, {delimiters: delim},
+        {macros: macros});
+    </script>
   </body>
 
 </html>
