@@ -25,3 +25,6 @@ JPS: "/assets/JPS1.pdf"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+kramdown:
+  math_engine: nil
