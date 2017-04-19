@@ -78,7 +78,7 @@ $$=\sum_{k=1}^\infty(\frac{\delta}{2}N_k - N_{k-1})\frac{1}{N_k}
 
 This proof gives us a few examples of large sets,
 including that any arithmetic progression is large;
-$$\{a_0+bn : n\in\N\}$$ has upper density $$b$$.
+$$\{a_0+bn : n\in\N\}$$ has upper density $$^1\!/_b$$ .
 
 Moreover, large sets with upper density $$0$$ do exist;
 [Euler showed](https://en.wikipedia.org/wiki/Divergence_of_the_sum_of_the_reciprocals_of_the_primes) that the set of primes is large,
