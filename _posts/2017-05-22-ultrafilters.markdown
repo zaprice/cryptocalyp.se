@@ -19,14 +19,16 @@ the filter has a dual known as an _ideal_, given by switching $$\leq,\wedge$$ to
 A filter is called _proper_ if it is not the entire set.
 For the most part we will be dealing with filters on the lattice of subsets of a set $$X$$, written as $$(\P(X),\cap,\cup,\subseteq)$$.
 
-<span class='proposition'>If $$C$$ is a chain of filters on $$\P(X)$$, then $$\displaystyle\bigcup_{c\in C}c$$ is a filter.</span>
+<span class='proposition'>If $$C$$ is a chain of proper filters on $$\P(X)$$, then $$\displaystyle\bigcup_{c\in C}c$$ is a proper filter.</span>
 <div class='proof'>
 If $Y,Z\in\bigcup c$, then there are filters $Y\in F_Y, Z\in F_Z$ in $C$.
 $C$ is totally ordered, so we can say without loss of generality that $F_Y\subseteq F_Z$.
 $Y,Z\in F_Z$ and $Y\cap Z\in F_Z$, so $Y\cap Z\in\bigcup c$.
 <br><br>
 If $Y\in\bigcup c$, $Z\in\P(X)$, and $Y\subseteq Z$, then $F_Y$ contains both $Y$ and $Z$.
-Therefore $Z\in\bigcup c$ and $\bigcup c$ is a filter.
+Therefore $Z\in\bigcup c$.<br>
+If $\bigcup c$ is not proper, then $\emptyset\in\bigcup c$ and $\emptyset\in c$ for some $c\in C$. This cannot be the case as all $c$ are proper.
+Thus, $\bigcup c$ is a proper filter.
 </div>
 
 <span class='definition'>An _ultrafilter_ $$\ \mathcal{U}\subseteq L$$ is a maximal proper filter on $$L$$. That is, if $$F$$ is a filter and $$\mathcal{U}\subseteq F$$, then either $$\mathcal{U}=F$$ or $$F=L$$.</span>
