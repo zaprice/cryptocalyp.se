@@ -250,12 +250,9 @@ pre {
 
 .proof:after {
     content: "\25FC";
-    float:right;
-}
-
-div.proof:after {
-    content: "\25FC";
     float: right;
+    font-size: 27px;
+    margin-top: -0.21em;
 }
 
 .definition {

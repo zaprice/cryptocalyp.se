@@ -12,7 +12,7 @@ copyright: >
   <a href=https://github.com/zaprice/cryptopocalyp.se>
   here</a>.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cryptopocalyp.se" # the base hostname & protocol for your site
+url: "https://cryptopocalyp.se" # the base hostname & protocol for your site
 twitter_username: mightbeprime
 github_username:  zaprice
 pinboard_username: zaprice
