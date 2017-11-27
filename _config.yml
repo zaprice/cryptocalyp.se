@@ -18,6 +18,9 @@ github_username:  zaprice
 pinboard_username: zaprice
 timezone: US/Eastern
 
+public_key: "/assets/zprice11_public_key.txt"
+JPS: "/assets/JPS1.pdf"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
