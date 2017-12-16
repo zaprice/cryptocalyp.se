@@ -13,6 +13,7 @@ This is my [public key]({{ site.public_key | prepend: site.baseurl }}).
 Publications:
 
 * _The Distribution of Eigenvalues of Doubly Cyclic $$Z^+$$-Matrices_ [(preprint)]({{ site.JPS | prepend: site.baseurl}})  
+Vol. 439 Iss. 11, _Linear Algebra and its Applications_  
 
 Open Source:
 
