@@ -20,7 +20,7 @@ Unlike how, say, the line segment $$(0,1)$$ has positive measure as a consequenc
 
 These statements are not just conceptually similar but mathematically related. As we will show, the compactness theorem and compactness principle can both be proved with [Tychonoff's theorem](https://en.wikipedia.org/wiki/Tychonoff%27s_theorem).
 Specifically we need only the fact that Tychonoff's theorem holds for Hausdorff spaces, which is equivalent to the ultrafilter lemma and the [BPI theorem](https://en.wikipedia.org/wiki/Boolean_prime_ideal_theorem).
-We can also prove the ultrafilter lemma from the compactness theorem, and likely from the compactness principle as well (though I haven't seen it).
+We can also prove the ultrafilter lemma from the compactness theorem, and the proof sketch at the end gives an idea of how it's equivalent to the compactness principle.
 
 First, the proof of the compactness principle.
 <div class='proof'>
