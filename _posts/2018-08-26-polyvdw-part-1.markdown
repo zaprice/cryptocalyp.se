@@ -47,7 +47,7 @@ Each equation in the first block is a Pythagorean triple, for which we have a [k
 From here, we can use the [Farey sequence](https://en.wikipedia.org/wiki/Farey_sequence) as an efficient algorithm to generate coprime pairs $$m,n$$.
 Then, we check if our triples overlap to form a $$K_3$$, and from there check if that $$K_3$$ has some $$w$$ satisfying the constraints.
 
-You can see my implementation of this algorithm [on Github](https://github.com/zaprice/polyvdw/blob/master/src/java/polyvdw/Cfour.java);
+You can see my implementation of this algorithm [on Github](https://github.com/zaprice/polyvdw/blob/31bb22c1431b038b7d185f843bec3a22a86033a3/src/java/polyvdw/Cfour.java);
 one important observation is that a triple $$(x,y,z)$$ is part of a $$K_3$$ precisely when the smallest difference $$a^2 = y^2 - x^2$$ is part of another
 triple $$(a,b,c)$$.
 
