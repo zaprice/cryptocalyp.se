@@ -15,7 +15,7 @@ $$z = f(x,y) = \frac{-1+\sqrt{4x(x+1)+4y(y+1)+1}}{2}$$
 
 This equality holds in general, but we only want values with $$z\in\N$$.
 
-$$z$$ is an integer _iff_ $$\ 4x(x+1)+4y(y+1)=(2z+1)^2$$ is an odd square.
+$$z$$ is an integer _iff_ $$\ 4x(x+1)+4y(y+1)+1=(2z+1)^2$$ is an odd square.
 This can be factored into $$(2x+1)^2+(2y+1)^2=(2z+1)^2+1$$, or $$m^2+n^2=k^2+1$$ with $$m,n,k$$ odd --
 like an "almost" Pythagorean triple.
 
