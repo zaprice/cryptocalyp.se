@@ -26,4 +26,4 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  math_engine: nil
+  math_engine: null
