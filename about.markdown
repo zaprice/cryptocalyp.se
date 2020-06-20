@@ -17,6 +17,7 @@ Vol. 439 Iss. 11, _Linear Algebra and its Applications_
 * Credited in _Problems with a Point_, by Gasarch and Kruskal -- for work on [polynomial Van der Waerden bounds]({{site.baseurl}}{% post_url 2018-08-26-polyvdw-part-1 %})
 * Co-inventor on [United States Patent Application No. 20170344896](http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220170344896%22),
 _Disambiguation of Agricultural Input_
+* Credited in the FEDS note [A New Procedure for Generating the Stochastic Simulations in FRB/US](https://www.federalreserve.gov/econres/notes/feds-notes/new-procedure-for-generating-the-stochastic-simulations-in-frb-us-20190307.htm)
 
 Open Source:
 

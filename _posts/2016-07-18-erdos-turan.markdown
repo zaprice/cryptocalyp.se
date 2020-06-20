@@ -19,7 +19,7 @@ Only a sequence with a sufficiently dense tail could have divergent reciprocal s
 the conjecture states that you cannot construct such a sequence without necessarily including an arithmetic progression of every length.
 The contrapositive provides an upper bound for the density of sequences that do not contain arbitrary arithmetic progressions as they must be less dense than large sets.
 
-As a combinatorial statement about arithmetic progressions, the conjecture is closely related to theorems of [Van der Waerden](https://en.wikipedia.org/wiki/Van_der_Waerden's_theorem) and [Szemerédi](https://en.wikipedia.org/wiki/Szemer%C3%A9di's_theorem).
+As a combinatorial statement about arithmetic progressions, the conjecture is closely related to theorems of [van der Waerden](https://en.wikipedia.org/wiki/Van_der_Waerden's_theorem) and [Szemerédi](https://en.wikipedia.org/wiki/Szemer%C3%A9di's_theorem).
 We will show that it is a strictly stronger version of Szemerédi's theorem.
 
 First, we sketch the prototype that inspires this proof.

@@ -14,7 +14,7 @@ Starting with a progression like $$\{a_0, a_0+r, a_0+2r,\ldots, a_0+kr\}$$ where
 We take some fixed $$d$$ and consider polynomials $$\{p_1,\ldots,p_k\}$$ with all $$p_i(0)=0$$; our new "progression" is $$\{a_0, a_0+p_1(d), a_0+p_2(d),\ldots, a_0+p_k(d)\}$$.
 This leads to the statement of the polynomial van der Waerden theorem:
 
-<span class="theorem">For any positive integers $$c,k$$ and a set $$\{p_1,\ldots,p_k\}$$ of polynomials with $$p_i(0)=0$$, there exists some number $$N=PW(c,\{p_1,\ldots,p_k\})$$ such that any $$c$$-coloring of $$\{1,\ldots,N\}$$ has a monochromatic subset $$\{a_0, a_0+p_1(d), a_0+p_2(d),\ldots, a_0+p_k(d)\}$$ for some $$d$$.</span>
+<span class="theorem">For any positive integers $$c,k$$ and a set $$\{p_1,\ldots,p_k\}\subseteq\Z[x]$$ of polynomials with $$p_i(0)=0$$, there exists some number $$N=PW(c,\{p_1,\ldots,p_k\})$$ such that any $$c$$-coloring of $$\{1,\ldots,N\}$$ has a monochromatic subset $$\{a_0, a_0+p_1(d), a_0+p_2(d),\ldots, a_0+p_k(d)\}$$ for some $$d$$.</span>
 
 This generalizes the standard theorem as the previous arithmetic progression has polynomials $$p_i(x) = ix$$ and $$d=r$$.
 
