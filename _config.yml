@@ -13,9 +13,7 @@ copyright: >
   here</a>.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://cryptopocalyp.se" # the base hostname & protocol for your site
-twitter_username: mightbeprime
 github_username:  zaprice
-pinboard_username: zaprice
 timezone: US/Eastern
 
 public_key: "/assets/zprice11_public_key.txt"
