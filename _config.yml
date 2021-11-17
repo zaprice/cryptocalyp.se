@@ -5,7 +5,7 @@ gmail: zprice11@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Zach Price personal site.
 copyright: >
-  Copyright <i class="fa fa-copyright"></i> 2018 Zachary Price</br>
+  Copyright <i class="icon-copyright"></i> 2018 Zachary Price</br>
   <a href=https://www.gnu.org/licenses/gpl-2.0.html>
   GNU GPL v2</a> ALL WRONGS RESERVED</br>
   Source code can be found
